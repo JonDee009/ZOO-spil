@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo spillet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1> Zoo spillet </h1>
+
+       
+        <section class="animal"> 
+     
+
+        
+        <div id=lion data-food="meat">
+        <p> 🦁 </p>
+        </div>
+
+        <div id="monkey" data-food="fruit">
+            <p>🦧 </p>
+        </div>
+
+        <div id="elephant" data-food="grass">
+            <p> 🐘 </p>
+        </div>
+
+        </section>
+
+    <!-- FOOD######## -->
+
+        <section id="foods">
+            <h2>Giv dyrene mad </h2>
+            <div class="foodcontainer">
+            <article id="f-1" draggable="true" data-food="fruit"><span class="food"></span>🍇 </article>
+            <article id="f-2" draggable="true" data-food="fruit"><span class="food"></span> 🍎 </article>
+            <article id="f-3" draggable="true" data-food="fruit"><span class="food"></span> 🍌 </article>
+            <article id="f-4" draggable="true" data-food="grass"><span class="food"></span> 🌿 </article>
+            <article id="f-5" draggable="true" data-food="meat"><span class="food"></span> s</article>
+            <div class="myCage"> </div>
+        </div>
+        </section>
+
+        
+    </div>
+
+    <audio src="audio/succes.mp3" id="succesAudio"></audio>
+    <audio src="audio/failure.mp3" id="failureAudio"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
